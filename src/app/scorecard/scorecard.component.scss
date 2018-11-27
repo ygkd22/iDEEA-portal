@@ -1,0 +1,29 @@
+body {
+    margin-top: 160px !important;
+}
+
+.section-1 {
+    background-color: #e4eef2;
+    margin-top: -40px;
+    padding: 50px;
+}
+
+.section-2 {
+    background-color: #ffffff;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .section-1 {
+        padding: 0px;
+    }
+    
+    .section-2 {
+        padding-right: 20px;
+        padding-left: 20px;
+        font-size: 13px;
+    }
+
+}

@@ -7,7 +7,7 @@
 
 .section-2 {
     background-color: #e4eef2;
-    margin-top: 60px;
+    margin-top: -40px;
 }
     .showcase-content {
         padding: 80px 15px 30px 15px;
@@ -103,9 +103,9 @@
             padding: 60px 0 20px 0;
             text-align: center;
         }
-        .section-2 {
-            margin-top: 15%;
-        }
+        /* .section-2 {
+            margin-top: 5%;
+        } */
         .iDDEA-logo {
             width: 60% !important;
             margin: 5% 0;

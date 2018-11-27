@@ -57,16 +57,16 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* Variables */
 body {
   background: #f77462;
-  font-family: Lato, sans-serif;
+  /* font-family: Lato, sans-serif; */
 }
 
-@font-face {
+/* @font-face {
   font-family: 'Genericons';
   src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/53819/genericons-regular-webfont.eot");
   src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/53819/genericons-regular-webfont.woff") format("woff"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/53819/genericons-regular-webfont.eot") format("truetype");
   font-weight: normal;
   font-style: normal;
-}
+} */
 [class*="genericon"] {
   display: inline-block;
   width: 16px;
@@ -74,7 +74,7 @@ body {
   -webkit-font-smoothing: antialiased;
   font-size: 16px;
   line-height: 1;
-  font-family: 'Genericons';
+  /* font-family: 'Genericons'; */
   text-decoration: inherit;
   font-weight: normal;
   font-style: normal;
@@ -93,7 +93,11 @@ body {
 }
 
 .accordion {
-  background: #5ab2ca;
+  /* background: #5ab2ca; */
+  background: url('../../../assets/images/scorecard2.jpg') bottom right;
+  /* background: url('https://resources.help.salesforce.com/images/10d56c96493d62ad42f715aab317c399.png') top center; */
+  
+  background-size:cover;
   width: 100%;
   min-width: 950px;
   display: block;
@@ -165,17 +169,23 @@ body {
   height: 225px;
   position: absolute;
   text-indent: 0;
-  padding-top: 80px;
-  padding-left: 20px;
+  padding-top: 100px;
+  padding-left: 28px;
   display: block;
-  font: normal 30px Genericons;
-  color: #fff;
+  font-size: 20px;
+  letter-spacing: 0.8px !important;
+  text-transform: uppercase;
+  line-height: 30px !important;
+  font-weight: 300;
+  color: #ffffff;
 }
 .step-links a:after {
   font-size: 30px;
   padding-left: 20px;
-  padding-top: 20px;
+  padding-top: 50px;
   margin-left: 120px;
+  font-weight: 400;
+  letter-spacing: normal !important;
 }
 
 
